@@ -13,3 +13,31 @@ Official repository and landing hub for Yono Games All, India's certified real-c
 - [Markdown Mirror](index.md): Full markdown representation of the primary landing page.
 - [Main Landing Page](index.html): Responsive, zero-CDN mobile web client.
 - [Sitemap](sitemap.xml): Complete machine-readable XML sitemap for search crawlers.
+
+## Multilingual Language Editions (25 Languages)
+This platform provides complete localized pages with 100% native translations:
+- [हिन्दी (Hindi)](https://yono-games.cloud/hi.html): Official Hindi edition.
+- [বাংলা (Bengali)](https://yono-games.cloud/bn.html): Official Bengali edition.
+- [తెలుగు (Telugu)](https://yono-games.cloud/te.html): Official Telugu edition.
+- [मराठी (Marathi)](https://yono-games.cloud/mr.html): Official Marathi edition.
+- [தமிழ் (Tamil)](https://yono-games.cloud/ta.html): Official Tamil edition.
+- [اردو (Urdu)](https://yono-games.cloud/ur.html): Official Urdu edition.
+- [ગુજરાતી (Gujarati)](https://yono-games.cloud/gu.html): Official Gujarati edition.
+- [ಕನ್ನಡ (Kannada)](https://yono-games.cloud/kn.html): Official Kannada edition.
+- [മലയാളം (Malayalam)](https://yono-games.cloud/ml.html): Official Malayalam edition.
+- [ଓଡ଼ିଆ (Odia)](https://yono-games.cloud/or.html): Official Odia edition.
+- [ਪੰਜਾਬੀ (Punjabi)](https://yono-games.cloud/pa.html): Official Punjabi edition.
+- [অসমীয়া (Assamese)](https://yono-games.cloud/as.html): Official Assamese edition.
+- [मैथिली (Maithili)](https://yono-games.cloud/mai.html): Official Maithili edition.
+- [संस्कृतम् (Sanskrit)](https://yono-games.cloud/sa.html): Official Sanskrit edition.
+- [भोजपुरी (Bhojpuri)](https://yono-games.cloud/bho.html): Official Bhojpuri edition.
+- [Español (Spanish)](https://yono-games.cloud/es.html): Official Spanish edition.
+- [Français (French)](https://yono-games.cloud/fr.html): Official French edition.
+- [Deutsch (German)](https://yono-games.cloud/de.html): Official German edition.
+- [Português (Portuguese)](https://yono-games.cloud/pt.html): Official Portuguese edition.
+- [Русский (Russian)](https://yono-games.cloud/ru.html): Official Russian edition.
+- [العربية (Arabic)](https://yono-games.cloud/ar.html): Official Arabic edition.
+- [Bahasa Indonesia (Indonesian)](https://yono-games.cloud/id.html): Official Indonesian edition.
+- [日本語 (Japanese)](https://yono-games.cloud/ja.html): Official Japanese edition.
+- [Tiếng Việt (Vietnamese)](https://yono-games.cloud/vi.html): Official Vietnamese edition.
+- [Türkçe (Turkish)](https://yono-games.cloud/tr.html): Official Turkish edition.

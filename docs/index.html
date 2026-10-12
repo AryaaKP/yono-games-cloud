@@ -387,9 +387,95 @@
       font-size: 0.88rem;
     }
     footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  
+    /* Multilingual Bar & Directory Styles */
+    .lang-bar-container { background: rgba(15, 23, 42, 0.95); border-bottom: 1px solid var(--border-subtle); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); }
+    .lang-bar-inner { max-width: 1200px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; gap: 12px; overflow-x: auto; }
+    .lang-bar-label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+    .lang-pills-scroll { display: flex; gap: 8px; align-items: center; overflow-x: auto; scrollbar-width: thin; padding-bottom: 2px; }
+    .lang-pill { display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 9999px; background: var(--bg-surface); border: 1px solid var(--border-subtle); font-size: 0.82rem; white-space: nowrap; transition: all 0.2s ease; color: var(--text-main); }
+    .lang-pill:hover { background: var(--bg-surface-elevated); border-color: var(--accent); color: #fff; }
+    .lang-pill.active { background: var(--accent); color: #000; font-weight: 700; border-color: var(--accent); }
+    .lang-directory-section { background: rgba(0, 0, 0, 0.35); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); padding: 45px 0; margin-top: 60px; }
+    .lang-dir-wrapper { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .lang-dir-header h3 { font-size: 1.3rem; margin-bottom: 6px; font-weight: 800; color: #fff; }
+    .lang-dir-header p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 20px; }
+    .lang-dir-group h4 { font-size: 1rem; color: var(--accent-light); margin-bottom: 12px; }
+    .lang-dir-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+    .lang-dir-link { display: block; padding: 8px 12px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; font-size: 0.88rem; transition: all 0.2s; color: #fff; text-decoration: none; }
+    .lang-dir-link:hover { background: var(--bg-surface-elevated); border-color: var(--accent); transform: translateY(-1px); }
+    .lang-dir-link span { color: var(--text-muted); font-size: 0.78rem; display: block; }
+
   </style>
+  <!-- Multilingual SEO hreflang suite -->
+  <link rel="alternate" hreflang="x-default" href="https://yono-games.cloud/">
+  <link rel="alternate" hreflang="en" href="https://yono-games.cloud/">
+  <link rel="alternate" hreflang="hi" href="https://yono-games.cloud/hi.html">
+  <link rel="alternate" hreflang="bn" href="https://yono-games.cloud/bn.html">
+  <link rel="alternate" hreflang="te" href="https://yono-games.cloud/te.html">
+  <link rel="alternate" hreflang="mr" href="https://yono-games.cloud/mr.html">
+  <link rel="alternate" hreflang="ta" href="https://yono-games.cloud/ta.html">
+  <link rel="alternate" hreflang="ur" href="https://yono-games.cloud/ur.html">
+  <link rel="alternate" hreflang="gu" href="https://yono-games.cloud/gu.html">
+  <link rel="alternate" hreflang="kn" href="https://yono-games.cloud/kn.html">
+  <link rel="alternate" hreflang="ml" href="https://yono-games.cloud/ml.html">
+  <link rel="alternate" hreflang="or" href="https://yono-games.cloud/or.html">
+  <link rel="alternate" hreflang="pa" href="https://yono-games.cloud/pa.html">
+  <link rel="alternate" hreflang="as" href="https://yono-games.cloud/as.html">
+  <link rel="alternate" hreflang="mai" href="https://yono-games.cloud/mai.html">
+  <link rel="alternate" hreflang="sa" href="https://yono-games.cloud/sa.html">
+  <link rel="alternate" hreflang="bho" href="https://yono-games.cloud/bho.html">
+  <link rel="alternate" hreflang="es" href="https://yono-games.cloud/es.html">
+  <link rel="alternate" hreflang="fr" href="https://yono-games.cloud/fr.html">
+  <link rel="alternate" hreflang="de" href="https://yono-games.cloud/de.html">
+  <link rel="alternate" hreflang="pt" href="https://yono-games.cloud/pt.html">
+  <link rel="alternate" hreflang="ru" href="https://yono-games.cloud/ru.html">
+  <link rel="alternate" hreflang="ar" href="https://yono-games.cloud/ar.html">
+  <link rel="alternate" hreflang="id" href="https://yono-games.cloud/id.html">
+  <link rel="alternate" hreflang="ja" href="https://yono-games.cloud/ja.html">
+  <link rel="alternate" hreflang="vi" href="https://yono-games.cloud/vi.html">
+  <link rel="alternate" hreflang="tr" href="https://yono-games.cloud/tr.html">
+  <!-- End hreflang suite -->
 </head>
 <body>
+<!-- Language Selector Bar -->
+
+  <!-- Language Selector Bar -->
+  <aside class="lang-bar-container" aria-label="Language Selector">
+    <div class="lang-bar-inner">
+      <span class="lang-bar-label">🌐 Select Language / भाषा चुनें:</span>
+      <div class="lang-pills-scroll">
+        <a href="./index.html" class="lang-pill active" title="English">🇬🇧 English</a>
+      <a href="./hi.html" class="lang-pill" title="Hindi (हिन्दी)">🇮🇳 हिन्दी</a>
+      <a href="./bn.html" class="lang-pill" title="Bengali (বাংলা)">🇮🇳 বাংলা</a>
+      <a href="./te.html" class="lang-pill" title="Telugu (తెలుగు)">🇮🇳 తెలుగు</a>
+      <a href="./mr.html" class="lang-pill" title="Marathi (मराठी)">🇮🇳 मराठी</a>
+      <a href="./ta.html" class="lang-pill" title="Tamil (தமிழ்)">🇮🇳 தமிழ்</a>
+      <a href="./ur.html" class="lang-pill" title="Urdu (اردو)">🇮🇳 اردو</a>
+      <a href="./gu.html" class="lang-pill" title="Gujarati (ગુજરાતી)">🇮🇳 ગુજરાતી</a>
+      <a href="./kn.html" class="lang-pill" title="Kannada (ಕನ್ನಡ)">🇮🇳 ಕನ್ನಡ</a>
+      <a href="./ml.html" class="lang-pill" title="Malayalam (മലയാളം)">🇮🇳 മലയാളം</a>
+      <a href="./or.html" class="lang-pill" title="Odia (ଓଡ଼ିଆ)">🇮🇳 ଓଡ଼ିଆ</a>
+      <a href="./pa.html" class="lang-pill" title="Punjabi (ਪੰਜਾਬੀ)">🇮🇳 ਪੰਜਾਬੀ</a>
+      <a href="./as.html" class="lang-pill" title="Assamese (অসমীয়া)">🇮🇳 অসমীয়া</a>
+      <a href="./mai.html" class="lang-pill" title="Maithili (मैथिली)">🇮🇳 मैथिली</a>
+      <a href="./sa.html" class="lang-pill" title="Sanskrit (संस्कृतम्)">🇮🇳 संस्कृतम्</a>
+      <a href="./bho.html" class="lang-pill" title="Bhojpuri (भोजपुरी)">🇮🇳 भोजपुरी</a>
+      <a href="./es.html" class="lang-pill" title="Spanish (Español)">🇪🇸 Español</a>
+      <a href="./fr.html" class="lang-pill" title="French (Français)">🇫🇷 Français</a>
+      <a href="./de.html" class="lang-pill" title="German (Deutsch)">🇩🇪 Deutsch</a>
+      <a href="./pt.html" class="lang-pill" title="Portuguese (Português)">🇧🇷 Português</a>
+      <a href="./ru.html" class="lang-pill" title="Russian (Русский)">🇷🇺 Русский</a>
+      <a href="./ar.html" class="lang-pill" title="Arabic (العربية)">🇦🇪 العربية</a>
+      <a href="./id.html" class="lang-pill" title="Indonesian (Bahasa Indonesia)">🇮🇩 Bahasa Indonesia</a>
+      <a href="./ja.html" class="lang-pill" title="Japanese (日本語)">🇯🇵 日本語</a>
+      <a href="./vi.html" class="lang-pill" title="Vietnamese (Tiếng Việt)">🇻🇳 Tiếng Việt</a>
+      <a href="./tr.html" class="lang-pill" title="Turkish (Türkçe)">🇹🇷 Türkçe</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- End Language Selector Bar -->
 
   <!-- Header -->
   <header>
@@ -637,6 +723,33 @@
   </div>
 
   <!-- Footer -->
+  <!-- Comprehensive Multilingual Directory -->
+
+  <!-- Comprehensive Multilingual Directory -->
+  <section class="lang-directory-section" aria-label="Regional & Global Languages">
+    <div class="lang-dir-wrapper">
+      <div class="lang-dir-header">
+        <h3>🌐 Regional & Global Language Editions (बहुभाषी संस्करण)</h3>
+        <p>Explore official verified downloads and localized guides in 15 popular Indian languages and 10 global international languages.</p>
+      </div>
+
+      <div class="lang-dir-group">
+        <h4>🇮🇳 Popular Indian Regional Languages (भारतीय भाषाएं):</h4>
+        <div class="lang-dir-grid">
+          <a href="./index.html" style="color:var(--accent);font-weight:700;" class="lang-dir-link">🇬🇧 English <span>(Default)</span></a><a href="./hi.html" class="lang-dir-link">🇮🇳 हिन्दी <span>(Hindi)</span></a><a href="./bn.html" class="lang-dir-link">🇮🇳 বাংলা <span>(Bengali)</span></a><a href="./te.html" class="lang-dir-link">🇮🇳 తెలుగు <span>(Telugu)</span></a><a href="./mr.html" class="lang-dir-link">🇮🇳 मराठी <span>(Marathi)</span></a><a href="./ta.html" class="lang-dir-link">🇮🇳 தமிழ் <span>(Tamil)</span></a><a href="./ur.html" class="lang-dir-link">🇮🇳 اردو <span>(Urdu)</span></a><a href="./gu.html" class="lang-dir-link">🇮🇳 ગુજરાતી <span>(Gujarati)</span></a><a href="./kn.html" class="lang-dir-link">🇮🇳 ಕನ್ನಡ <span>(Kannada)</span></a><a href="./ml.html" class="lang-dir-link">🇮🇳 മലയാളം <span>(Malayalam)</span></a><a href="./or.html" class="lang-dir-link">🇮🇳 ଓଡ଼ିଆ <span>(Odia)</span></a><a href="./pa.html" class="lang-dir-link">🇮🇳 ਪੰਜਾਬੀ <span>(Punjabi)</span></a><a href="./as.html" class="lang-dir-link">🇮🇳 অসমীয়া <span>(Assamese)</span></a><a href="./mai.html" class="lang-dir-link">🇮🇳 मैथिली <span>(Maithili)</span></a><a href="./sa.html" class="lang-dir-link">🇮🇳 संस्कृतम् <span>(Sanskrit)</span></a><a href="./bho.html" class="lang-dir-link">🇮🇳 भोजपुरी <span>(Bhojpuri)</span></a>
+        </div>
+      </div>
+
+      <div class="lang-dir-group" style="margin-top:20px;">
+        <h4>🌍 International Global Editions (अंतर्राष्ट्रीय भाषाएं):</h4>
+        <div class="lang-dir-grid">
+          <a href="./es.html" class="lang-dir-link">🇪🇸 Español <span>(Spanish)</span></a><a href="./fr.html" class="lang-dir-link">🇫🇷 Français <span>(French)</span></a><a href="./de.html" class="lang-dir-link">🇩🇪 Deutsch <span>(German)</span></a><a href="./pt.html" class="lang-dir-link">🇧🇷 Português <span>(Portuguese)</span></a><a href="./ru.html" class="lang-dir-link">🇷🇺 Русский <span>(Russian)</span></a><a href="./ar.html" class="lang-dir-link">🇦🇪 العربية <span>(Arabic)</span></a><a href="./id.html" class="lang-dir-link">🇮🇩 Bahasa Indonesia <span>(Indonesian)</span></a><a href="./ja.html" class="lang-dir-link">🇯🇵 日本語 <span>(Japanese)</span></a><a href="./vi.html" class="lang-dir-link">🇻🇳 Tiếng Việt <span>(Vietnamese)</span></a><a href="./tr.html" class="lang-dir-link">🇹🇷 Türkçe <span>(Turkish)</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Multilingual Directory -->
   <footer>
     <div class="wrapper">
       <p>© 2026 Yono Games All Official Network. All Rights Reserved.</p>

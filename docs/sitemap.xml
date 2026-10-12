@@ -1,33 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://AryaaKP.github.io/yono-games-cloud/</loc>
+    <loc>https://yono-games.cloud/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://AryaaKP.github.io/yono-games-cloud/index.html</loc>
+    <loc>https://yono-games.cloud/hi.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://AryaaKP.github.io/yono-games-cloud/index.md</loc>
+    <loc>https://yono-games.cloud/bn.html</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://AryaaKP.github.io/yono-games-cloud/llms.txt</loc>
+    <loc>https://yono-games.cloud/te.html</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://AryaaKP.github.io/yono-games-cloud/llms-full.txt</loc>
+    <loc>https://yono-games.cloud/mr.html</loc>
     <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ta.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ur.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/gu.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/kn.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ml.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/or.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/pa.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/as.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/mai.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/sa.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/bho.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/es.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/fr.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/de.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/pt.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ru.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ar.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/id.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/ja.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/vi.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yono-games.cloud/tr.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
